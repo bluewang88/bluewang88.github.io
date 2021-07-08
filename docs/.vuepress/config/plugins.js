@@ -8,6 +8,11 @@ module.exports = [
 
   'vuepress-plugin-baidu-autopush', // 百度自动推送
 
+  'cursor-effects',
+  // 全文搜索插件
+  'fulltext-search',
+  'vuepress-plugin-mermaidjs', //添加markdown的mermaid时序图的支持
+
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
     'thirdparty-search',
@@ -83,11 +88,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: '88e7ae33a3b8de462ae9',
+        clientSecret: 'cd5ed25784aff8b0e0d96166fcb67e24f38b43b1',
+        repo: 'bluewang88.github.io', // GitHub 仓库
+        owner: 'bluewang88', // GitHub仓库所有者
+        admin: ['bluewang88'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

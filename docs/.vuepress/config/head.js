@@ -1,22 +1,24 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-  ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+  ['link', { rel: 'icon', href: '/img/bluebaozi-favicon.ico' }], //favicons，资源放在public文件夹
   [
     'meta',
     {
       name: 'keywords',
-      content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+      content: 'voice,个人技术博客,cisco,思科,avaya,亚美亚,uccx,cucm,callcenter,呼叫中心,python,js,Django,collaboration,vue,python,cummunication,callmanager,Node,git,github,markdown',
     },
   ],
-  ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
+  ['meta', { name: 'baidu-site-verification', content:'code-neRQj6JIlv' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   [
-    'script',
-    {
-      'data-ad-client': 'ca-pub-7828333725993554',
-      async: 'async',
+    'script', {
+      'data-ad-client': 'ca-pub-7517431412685010',
+      async: '' ,
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-    },
+    }
   ], // 网站关联Google AdSense 与 html格式广告支持
+  ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
+  // 搜索框添加快捷键
+  ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
 ]

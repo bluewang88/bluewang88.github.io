@@ -6,8 +6,8 @@ const htmlModules = require('./htmlModules.js');
 module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/EB-logo.png', // 导航栏logo
-  repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+  logo: '/img/bluebaozi-logo.png', // 导航栏logo
+  repo: 'bluewang88/bluewang88.github.io', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
@@ -47,14 +47,14 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'xugaoyi', // 必需
-    link: 'https://github.com/xugaoyi', // 可选的
+    name: 'wangwei', // 必需
+    link: 'https://github.com/bluewang88', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    name: 'Evan Xu',
-    slogan: '前端界的小学生',
+    avatar: 'http://markdown-bluebaozi.oss-cn-shanghai.aliyuncs.com/img/image-20210706232943610.png',
+    name: 'Alastair Wang',
+    slogan: '不断练习的攻城狮',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -63,25 +63,25 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:894072666@qq.com',
+        link: 'mailto:846087453@qq.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/xugaoyi',
+        link: 'https://github.com/bluewang88',
       },
       {
         iconClass: 'icon-erji',
         title: '听音乐',
-        link: 'https://music.163.com/#/playlist?id=755597173',
+        link: 'https://c.y.qq.com/base/fcgi-bin/u?__=cG9avd44',
       },
     ],
   },
   footer: {
     // 页脚信息
-    createYear: 2019, // 博客创建年份
+    createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Alastair Wang | <a href="https://github.com/bluewang88/Blogs/blob/78db3ddf282be89112e24cb18dda2c00f52ce142/LICENSE.md" target="_blank">MIT License</a> | <a rel="nofollow " target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=18057030">沪ICP备2021019387号-1</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
