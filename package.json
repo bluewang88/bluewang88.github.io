@@ -21,6 +21,7 @@
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-mermaidjs": "^1.8.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
@@ -29,6 +30,8 @@
     "yamljs": "^0.3.0"
   },
   "dependencies": {
+    "markdown-it": "^12.1.0",
+    "markdown-it-katex": "^2.0.3",
     "vuepress-plugin-comment": "^0.7.3"
   }
 }

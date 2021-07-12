@@ -21,4 +21,6 @@ module.exports = [
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
   // 搜索框添加快捷键
   ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
+
+
 ]

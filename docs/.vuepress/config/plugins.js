@@ -12,6 +12,18 @@ module.exports = [
   // 全文搜索插件
   'fulltext-search',
   'vuepress-plugin-mermaidjs', //添加markdown的mermaid时序图的支持
+  
+  //支持markdwon数学公式支持
+  [
+    'vuepress-plugin-mathjax',
+    {
+      target: 'svg',
+      macros: {
+        '*': '\\times',
+      },
+    },
+  ],
+
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   [
