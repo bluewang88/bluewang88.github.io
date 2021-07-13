@@ -21,6 +21,13 @@ module.exports = [
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}],
   // 搜索框添加快捷键
   ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
-
-
+  //添加markdown-it-katex的样式表
+  // ['link', {
+  //   rel: 'stylesheet',
+  //   href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css'
+  // }],
+  // ['link', {
+  //   rel: "stylesheet",
+  //   href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css"
+  // }],
 ]
