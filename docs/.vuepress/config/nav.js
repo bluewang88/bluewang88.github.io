@@ -6,7 +6,8 @@ module.exports = [
   { text: '云计算和虚拟化', link: '/cloud_Virtualization/' },
   { text: '编程', link: '/coding/' },
   { text: '安全', link: '/Security/' },
-  { text: '关于', link: '/about/' },
+  { text: '关于我', link: '/about/' },
+  { text: '更多', link: '/more/' },
   { text: '索引', link: '/categories/',
     items: [
       { text: '分类', link: '/categories/' },
